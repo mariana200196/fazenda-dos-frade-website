@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fazenda dos Frade</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  
+</head>
+<body id="body">
+    
+    <div class="container-fluid">
+        
+        <!-- H1 -->
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 id="FF1">Fazenda dos Frade</h1>
+            </div>
+        </div>
+        
+        <!-- NAVBAR -->
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-md navbar-light rounded-top shadow">
+                    <a class="navbar-brand" href="#">Página Inicial</a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div id="top-navigation" class="navbar-nav"></div>
+                    </div>  
+                </nav>
+            </div>
+        </div>
+        
+        <!-- IMAGE CAROUSEL -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active mb-4 shadow">
+              <img class="d-block w-100 rounded-bottom" src="public_images/Cropped1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item mb-4 shadow">
+              <img class="d-block w-100 rounded-bottom" src="public_images/Cropped2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item mb-4 shadow">
+              <img class="d-block w-100 rounded-bottom" src="public_images/Cropped5.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        
+        <hr>
+        
+        <!-- CARDS -->
+        <div class="row  justify-content-center">
+            <div class="card d-none d-lg-block col-lg-2 mx-auto my-4 border-0 bg-transparent">
+              <img class="card-img shadow" src="backgrounds/bg6.jpg" alt="Decoracao">
+            </div>
+            
+            <div id="cafe" class="card col-6 col-md-3 col-lg-2 mx-auto my-4 border-0 bg-transparent">
+              <img class="card-img shadow" src="backgrounds/bg1.jpg" alt="Café">
+              <a href="coffee.html" class="stretched-link"></a>
+            </div>
+            
+            <div id="historia" class="card col-6 col-md-3 col-lg-2 mx-auto my-4 border-0 bg-transparent">
+              <img class="card-img shadow" src="backgrounds/bg2.jpg" alt="Nossa História">
+              <a href="private/timeline.html" class="stretched-link"></a>
+            </div>
+            
+            <div id="fotos" class="card col-6 col-md-3 col-lg-2 mx-auto my-4 border-0 bg-transparent">
+              <img class="card-img shadow" src="backgrounds/bg7.jpg" alt="Fotos">
+              <a href="private/fotos.html" class="stretched-link"></a>
+            </div>
+
+            <div id="contato" class="card col-6 col-md-3 col-lg-2 mx-auto my-4 border-0 bg-transparent">
+              <img class="card-img shadow" src="backgrounds/bg5.jpg" alt="Fale Conosco">
+              <a href="contact.html" class="stretched-link"></a>
+            </div>
+
+             <div class="card d-none d-lg-block col-lg-2 mx-auto my-4 border-0 bg-transparent">
+              <img class="card-img shadow" src="backgrounds/bg6.jpg" alt="Decoracao">
+            </div>
+        </div>
+        
+        <hr>
+        
+        <!-- POEM -->
+        <div id="poemCard" class="card mx-auto my-5 pt-2 px-2 border-0 shadow">
+          <div class="row no-gutters">
+            <div class="col-12 col-md-3">
+              <img src="public_images/garciafrades-removebg-preview.png" class="card-img" alt="Chico Frade" style="width: 190px">
+            </div>
+            <div class="col-12 col-md-9">
+              <div class="card-body">
+                <h5 id="FF5" class="card-title">Os Garcia "Frade"</h5>
+                <p class="card-text">A família Garcia faz parte da história de Minas Gerais desde o alvorecer do século XVIII. Um de seus ramos, alcunhado "Frade" no século XIX, compõe longa tradição de cafeicultores. Este café, orginário das montanhas do sul de Minas, é o único que incorpora o sabor e aroma que só famílias de várias gerações podem oferecer.</p>
+                <p class="card-text"><small class="text-muted">-Aurélio A. Garcia Avelino</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <hr style="margin-bottom: 1rem;">
+        
+    </div>
+    
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <!-- JS scripts -->
+    <script src="index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,83 @@
+#body {
+    background-color: antiquewhite;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Great Vibes', Helvetica, sans-serif;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+    padding: 40px;
+}
+
+#FF1 {
+    font-size: max(6vw, 50px);
+}
+
+.navbar {
+    background-color: oldlace;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    color: black;
+}
+
+h5 {
+    font-family: 'Great Vibes', Helvetica, sans-serif;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+
+#FF5 {
+    font-size: max(3vw, 30px); 
+}
+
+#addressCard, #emailCard, #formCard {
+    background-color: oldlace;
+}
+
+@media screen and (min-width: 992px) {
+    #addressCard, #emailCard {
+        max-height: 5.7vw;
+    }
+    
+    img {
+        max-height: 5.7vw;
+    }
+    
+    p {
+        font-size: max(1.3vw, 14px);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #addressCard, #emailCard {
+        height: max(5.7vw, 50px);
+    }
+    
+    img {
+        max-height: max(5.7vw, 50px);
+    }
+    
+    p {
+        font-size: max(1.3vw, 13px);
+    }
+}
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(n) {
+  animation-duration: 0.6s;
+}
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
